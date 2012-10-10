@@ -1,0 +1,63 @@
+@CHARSET "ISO-8859-1";
+
+#header {
+    float:left;
+    width:100%;
+    background:#DAE0D2 url("bg.gif")
+      repeat-x bottom;
+    font-size:93%;
+    line-height:normal;
+    }
+  #header ul {
+    margin:0;
+    padding:10px 10px 0;
+    list-style:none;
+    }
+    
+  #header li {
+    float:left;
+    background:url("norm_right.gif")
+      no-repeat right top;
+    margin:0;
+   padding:0 0 0 9px;
+    }
+
+    
+ #header a {
+    display:block;
+    background:url("norm_left.gif")
+      no-repeat left top;
+    padding:5px 15px 4px 6px;
+    }
+    
+#header li a {
+	padding: 0 1em;
+}
+
+
+
+#content {
+	border: 1px solid;
+	clear: both;
+}
+
+#flash h1 {
+	margin: 0;
+	padding: 0 0 1em 0;
+	text-align:center;
+} 
+#flash2 h1 {
+	margin: 0;
+	padding: 0 0 1em 0;
+	text-align:center;
+}
+#header #selected {
+	position: relative;
+	top: 1px;
+	background: red;
+}
+
+
+
+#flash{display: none;}
+#flash2{display: none;}

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" media="all" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#change li").hover(function(){
+		$("ul",this).show();
+		$("a.hide2", this).addClass('selected');
+	}, function(){
+		$("ul",this).hide();
+		$("a.hide2", this).removeClass('selected');
+		
+	});
+});
+</script>
+</head>
+<body>
+
+
+	<ul id="change">
+<li>
+<a href="#" class="hide2">Menu</a>
+	<ul>
+		<li>
+		<div class="wrap">
+		menu stuffs
+		</div>
+		</li>
+</ul>
+</li>
+<li>
+<a href="#" class="hide2">Products</a>
+<ul>
+	<li>
+	<div class="wrap">
+	Product Stuffs
+	<br><br><br><br>
+	</div>
+</li>
+</ul>
+</li>
+</ul>
+
+
+
+</body>
+</html>

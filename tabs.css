@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+
+div#nav_menu ul.tabs { 
+		list-style-type: none; 
+		margin: 0; 
+		padding: 0; 
+		}
+		
+ul.tabs li { 
+	margin: 0; 
+	padding: 0; 
+	float: left;
+	background: url("images/apple_tab_r.gif") no-repeat right top;
+	}
+	
+ul.tabs li a{
+	width: auto;
+	display: block;
+	padding: 4px 10px;
+	background: url("images/apple_tab_l.gif") no-repeat left top;
+	}
+	
+div#nav_menu { 
+	float: left;
+	width: 100%;
+	line-height:normal;
+	background: url("images/apple_line.gif") repeat-x bottom;
+	}
+	
+	
